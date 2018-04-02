@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+    <title>松江大学城教室管理系统</title>
+    <meta name="description" content="">
+    <meta name="author" content="templatemo">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700' rel='stylesheet' type='text/css'>
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/templatemo-style.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <!-- Left column -->
+    <div class="templatemo-flex-row">
+      <div class="templatemo-sidebar">
+        <header class="templatemo-site-header">
+          <div class="square"></div>
+          <h1>欢迎使用！</h1>
+        </header>
+        <div class="profile-photo-container">
+          <img src="images/profile-photo.jpg" alt="Profile Photo" class="img-responsive">
+          <div class="profile-photo-overlay"></div>
+        </div>
+        <!-- Search box -->
+        <form class="templatemo-search-form" role="search">
+          <div class="input-group">
+            <p>姓名：余乐章</p>
+            <p>身份：学生</p>
+            <p>学号：151030121</p>
+            <p>学校：东华大学</p>
+            <p></p>
+          </div>
+        </form>
+        <div class="mobile-menu-icon">
+            <i class="fa fa-bars"></i>
+          </div>
+        <nav class="templatemo-left-nav">
+          <ul>
+            <li><a href="roomSearch.html"><i class="fa fa-home fa-fw"></i>教室查询</a></li>
+            <li><a href="roomBorrow.html"><i class="fa fa-database fa-fw"></i>教室借用</a></li>
+            <li><a href="emptyRoomSearch.html"><i class="fa fa-map-marker fa-fw"></i>我要自习</a></li>
+            <li><a href="teacherSearch.html"><i class="fa fa-users fa-fw"></i>教师查询</a></li>
+            <li><a href="#" class="active"><i class="fa fa-sliders fa-fw"></i>课程查询</a></li>
+            <li><a href="login.html"><i class="fa fa-eject fa-fw"></i>退出登录</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- Main content -->
+      <div class="templatemo-content col-1 light-gray-bg">
+        <div class="templatemo-top-nav-container">
+          <div class="row">
+            <nav class="templatemo-top-nav col-lg-12 col-md-12">松江大学城教室管理系统</nav>
+          </div>
+        </div>
+        <div class="templatemo-content-container">
+          <div class="templatemo-content-widget white-bg">
+              <div class="square"></div>
+              <h1 class="templatemo-inline-block">课程查询</h1><hr>
+              <p>&nbsp;</p>     
+
+            <form action="lesson2.html" class="templatemo-login-form" method="post" >
+              <div class="row form-group">
+                <div class="col-lg-6 col-md-6 form-group"> 
+                  <label class="control-label templatemo-block">请选择学校</label>                 
+                  <select class="form-control">
+                    <option value="html">东华大学</option>
+                    <option >上海外国语大学</option>
+                    <option >上海对外经贸大学</option> 
+                    <option >上海工程技术大学</option> 
+                    <option >上海立信会计金融学院</option> 
+                    <option >华东政法大学</option> 
+                    <option v>上海视觉艺术学院</option>                         
+                  </select>
+                </div>
+              </div>
+              <br /> 
+               <div class="row form-group">
+                <div class="col-lg-6 col-md-6 form-group">                  
+                  <label for="inputFirstName">请输入课程名称</label>
+                  <input type="text" class="form-control" id="inputFirstName" placeholder="如“高等数学”">                  
+                </div>
+              </div>
+               <br /> 
+       </form>
+              <div class="form-group text-left">
+                <button  class="templatemo-blue-button" onclick="window.location.href='lesson2.html'">查询</button>
+              </div>                           
+            
+          </div>
+          <footer class="text-right">
+            <p>Copyright &copy; 2018 
+            | Designed by <a target="_parent">us</a></p>
+          </footer>
+        </div>
+      </div>
+    </div>
+
+    <!-- JS -->
+    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>        <!-- jQuery -->
+    <script type="text/javascript" src="js/bootstrap-filestyle.min.js"></script>  <!-- http://markusslima.github.io/bootstrap-filestyle/ -->
+    <script type="text/javascript" src="js/templatemo-script.js"></script>        <!-- Templatemo Script -->
+  </body>
+</html>
