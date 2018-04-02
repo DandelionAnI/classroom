@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+       <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+    <title>松江大学城教室管理系统</title>
+    <meta name="description" content="">
+    <meta name="author" content="templatemo">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700' rel='stylesheet' type='text/css'>
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/templatemo-style.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </head>
+  <body>  
+    <!-- Left column -->
+    <div class="templatemo-flex-row">
+      <div class="templatemo-sidebar">
+        <header class="templatemo-site-header">
+          <div class="square"></div>
+          <h1>欢迎使用！</h1>
+        </header>
+        <div class="profile-photo-container">
+          <img src="images/profile-photo.jpg" alt="Profile Photo" class="img-responsive">  
+          <div class="profile-photo-overlay"></div>
+        </div>      
+        <!-- Search box -->
+        <form class="templatemo-search-form" role="search">
+          <div class="input-group">
+            <p>姓名：余乐章</p>
+            <p>身份：学生</p>
+            <p>学号：151030121</p>
+            <p>学校：东华大学</p>
+            <p></p>
+          </div>
+        </form>
+        <div class="mobile-menu-icon">
+            <i class="fa fa-bars"></i>
+          </div>
+        <nav class="templatemo-left-nav">          
+          <ul>
+            <li><a href="chaxun.html"><i class="fa fa-home fa-fw"></i>教室查询</a></li>   
+            <li><a href="jieyong.html"><i class="fa fa-database fa-fw"></i>教室借用</a></li>
+            <li><a href="#" class="active"><i class="fa fa-map-marker fa-fw"></i>我要自习</a></li>
+            <li><a href="teacher.html"><i class="fa fa-users fa-fw"></i>教师查询</a></li>
+            <li><a href="lesson.html"><i class="fa fa-sliders fa-fw"></i>课程查询</a></li>
+            <li><a href="login.html"><i class="fa fa-eject fa-fw"></i>退出登录</a></li>
+          </ul>  
+        </nav>
+      </div>
+      <!-- Main content --> 
+      <div class="templatemo-content col-1 light-gray-bg">
+        <div class="templatemo-top-nav-container">
+          <div class="row">
+            <nav class="templatemo-top-nav col-lg-12 col-md-12">松江大学城教室管理系统</nav>
+          </div>
+        </div>
+        <div class="templatemo-content-container">
+			<div class="templatemo-content-widget white-bg col-2">
+              <div class="square"></div>
+              <h1 class="templatemo-inline-block">我要自习</h1>
+              <hr>
+              <p>&nbsp;</p>
+              
+              <form  class="templatemo-login-form" >
+              
+				<div class="row form-group">
+                <div class="col-lg-6 col-md-6 form-group">
+               <span style="font-size: 18px">在
+                <a target="_parent">东华大学</a>中 搜索到符合条件的空教室有 
+                <a target="_parent">3</a>间：</span></div>
+                </div>
+              
+               <div class="table-responsive">
+                  <table class="table table-striped table-bordered">
+                    <thead>
+                      <tr>
+                        
+                        <td>教室名称</td>
+                        <td>所在教学楼</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        
+                        <td>松1125</td>
+                        <td>第一教学楼</td>
+                      </tr>
+                      <tr>
+                        <td>松1401</td>
+                        <td>第一教学楼</td>
+                      </tr> 
+                      <tr>
+                        <td>松2201</td>
+                        <td>第二教学楼</td>
+                      </tr> 
+                      <tr>
+                        <td>松2235</td>
+                        <td>第二教学楼</td>
+                      </tr>     
+                    </tbody>
+                  </table>    
+                </div>
+                <br/> 
+				</form>
+              <div class="form-group text-left">
+                <button  class="templatemo-blue-button" onclick="window.location.href = 'zixi.html'">返回重新查询</button>
+              </div>                           
+                      
+            </div>
+           <footer class="text-right">
+            <p>Copyright &copy; 2018 
+            | Designed by <a target="_parent">us</a></p>
+          </footer>     
+        </div>
+      </div>
+    </div>
+    
+    <!-- JS -->
+    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>      <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script> <!--  jQuery Migrate Plugin -->
+    <script type="text/javascript" src="js/templatemo-script.js"></script>      <!-- Templatemo Script -->
+    <script type="text/javascript" src="jqvmap/jquery.vmap.js"></script>
+    <script type="text/javascript" src="jqvmap/maps/jquery.vmap.world.js"></script>
+    <script type="text/javascript" src="jqvmap/data/jquery.vmap.sampledata.js"></script>
+    <script src="jqvmap/maps/continents/jquery.vmap.africa.js" type="text/javascript"></script>
+    <script src="jqvmap/maps/continents/jquery.vmap.asia.js" type="text/javascript"></script>
+    <script src="jqvmap/maps/continents/jquery.vmap.australia.js" type="text/javascript"></script>
+    <script src="jqvmap/maps/continents/jquery.vmap.europe.js" type="text/javascript"></script>
+    <script src="jqvmap/maps/continents/jquery.vmap.north-america.js" type="text/javascript"></script>
+    <script src="jqvmap/maps/continents/jquery.vmap.south-america.js" type="text/javascript"></script>
+    <script src="jqvmap/maps/jquery.vmap.usa.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      
+      function drawMaps(){
+        $('#vmap_world').vectorMap({
+          map: 'world_en',
+          backgroundColor: '#ffffff',
+          color: '#333',
+          hoverOpacity: 0.7,
+          selectedColor: '#666666',
+          enableZoom: true,
+          showTooltip: true,
+          values: sample_data,
+          scaleColors: ['#C8EEFF', '#006491'],
+          normalizeFunction: 'polynomial'
+        });
+        $('#vmap_africa').vectorMap({
+          map: 'africa_en',
+          backgroundColor: '#ffffff',
+          color: '#333333',
+          hoverOpacity: 0.7,
+          selectedColor: '#666666',
+          enableZoom: true,
+          showTooltip: true,
+          values: sample_data,
+          scaleColors: ['#C8EEFF', '#006491'],
+          normalizeFunction: 'polynomial'
+        }); 
+        $('#vmap_asia').vectorMap({
+          map: 'asia_en',
+          backgroundColor: '#ffffff',
+          color: '#333333',
+          hoverOpacity: 0.7,
+          selectedColor: '#666666',
+          enableZoom: true,
+          showTooltip: true,
+          values: sample_data,
+          scaleColors: ['#C8EEFF', '#006491'],
+          normalizeFunction: 'polynomial'
+        });
+        $('#vmap_australia').vectorMap({
+          map: 'australia_en',
+          backgroundColor: '#ffffff',
+          color: '#333333',
+          hoverOpacity: 0.7,
+          selectedColor: '#666666',
+          enableZoom: true,
+          showTooltip: true,
+          values: sample_data,
+          scaleColors: ['#C8EEFF', '#006491'],
+          normalizeFunction: 'polynomial'
+        });
+        $('#vmap_europe').vectorMap({
+          map: 'europe_en',
+          backgroundColor: '#ffffff',
+          color: '#333333',
+          hoverOpacity: 0.7,
+          selectedColor: '#666666',
+          enableZoom: true,
+          showTooltip: true,
+          values: sample_data,
+          scaleColors: ['#C8EEFF', '#006491'],
+          normalizeFunction: 'polynomial'
+        });
+        $('#vmap_northamerica').vectorMap({
+          map: 'north-america_en',
+          backgroundColor: '#ffffff',
+          color: '#333333',
+          hoverOpacity: 0.7,
+          selectedColor: '#666666',
+          enableZoom: true,
+          showTooltip: true,
+          values: sample_data,
+          scaleColors: ['#C8EEFF', '#006491'],
+          normalizeFunction: 'polynomial'
+        });
+        $('#vmap_southamerica').vectorMap({
+          map: 'south-america_en',
+          backgroundColor: '#ffffff',
+          color: '#333333',
+          hoverOpacity: 0.7,
+          selectedColor: '#666666',
+          enableZoom: true,
+          showTooltip: true,
+          values: sample_data,
+          scaleColors: ['#C8EEFF', '#006491'],
+          normalizeFunction: 'polynomial'
+        });
+        $('#vmap_usa').vectorMap({
+          map: 'usa_en',
+          enableZoom: true,
+          showTooltip: true,
+          selectedRegion: 'MO'
+        });  
+      } // end function drawMaps
+
+      $(document).ready(function() {
+
+        if($.browser.mozilla) {
+          //refresh page on browser resize
+          // http://www.sitepoint.com/jquery-refresh-page-browser-resize/
+          $(window).bind('resize', function(e)
+          {
+            if (window.RT) clearTimeout(window.RT);
+            window.RT = setTimeout(function()
+            {
+              this.location.reload(false); /* false to get page from cache */
+            }, 200);
+          });      
+        } else {
+          $(window).resize(function(){
+            drawMaps();
+          });  
+        }
+        
+        drawMaps();
+
+      });
+    </script>
+  </body>
+</html>
